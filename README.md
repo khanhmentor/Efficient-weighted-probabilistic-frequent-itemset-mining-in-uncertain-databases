@@ -17,6 +17,8 @@ Contents:
 2. Source
    - Datasets
      This folder contains all datasets utilized in the research and analysis.
+     Since the USCensus file exceeds GitHub's upload limit, you can access it through the following link: https://drive.google.com/file/d/1BLlJiHbe2G_gW_W33b0ftIGWwA_GMz2q/view?usp=sharing
+     Please ensure to place the downloaded file (USCensus) into this specific folder.
      
    - Java
      This directory houses the Java implementation of the project's code.
