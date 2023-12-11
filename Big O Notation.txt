@@ -1,0 +1,29 @@
+Theoretical Big O Notation
+
+1. Initial DB Processing
+- The initial DB processing step involves iterating over each transaction and item within the transaction. 
+- Assuming n is the number of transactions and m is the average number of items per transaction, this step is O(n*m).
+
+2. Finding Size-1 Weighted Probabilistic Frequent Itemsets (scanFindSize1WPFI)
+- This function iterates over each unique item and performs calculations that are constant time operations. 
+- Let u be the number of unique items. The complexity of this part is O(u).
+
+3. Main Loop
+The main loop's complexity depends on two parts:
+
+- Candidate Generation (wPFIAprioriGen): 
+    Assuming the worst case where the candidate set grows exponentially with the number of items, this could have a complexity of O(2^u) in the worst case.
+- Scanning for Size k WPFI (scanFindSizeKWpfi): 
+    + This involves iterating over the candidate sets. 
+    + If the size of candidate sets is c, and assuming the worst case where c grows exponentially, the complexity is O(cnm) for each iteration.
+
+4. Loop Iterations
+- Let's denote the number of times the main loop runs as k. 
+- The value of k depends on how quickly the set of itemsets of size k becomes empty. 
+- In the worst case, k could be as large as u (if every subset of items forms a valid itemset up to the maximum size).
+
+5. Summarize
+- Combining these components, the theoretical Big O notation for the wPFIApriori function is complex due to its dependence on multiple factors like n, m, u, and c. 
+- In the worst case, considering exponential growth in candidate generation and the number of loop iterations, the complexity can be expressed as:
+
+    O(nmu + 2^u * k * nm), which simplifies to O(2^u * u * nm) if k is approximated to u.
