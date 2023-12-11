@@ -35,11 +35,11 @@ This document provides an overview of the contents and structure of the report t
      ##### c. Compiling the Code:
      ###### Open a terminal or command prompt in the directory where the Java source files are located.
      ###### Compile the code using the following command:
-     ####### javac -cp ".;lib/jfreechart-1.0.19.jar;lib/jcommon-1.0.23.jar" Main.java
+         javac -cp ".;lib/jfreechart-1.0.19.jar;lib/jcommon-1.0.23.jar" Main.java
 
      ##### d. Running the Application:
      ###### After compilation, run the application using:
-     ####### java -cp ".;lib/jfreechart-1.0.19.jar;lib/jcommon-1.0.23.jar" Main
+         java -cp ".;lib/jfreechart-1.0.19.jar;lib/jcommon-1.0.23.jar" Main
 
      ##### e. Troubleshooting:
      + ###### If you encounter classpath errors, ensure that the path to the JAR file is correctly specified in the compile and run commands.
@@ -49,13 +49,13 @@ This document provides an overview of the contents and structure of the report t
      A Jupyter Notebook file containing the Python version of the implementation.
 
 ## 3. "Big O Notation.txt"
-    This text file provides an overview or explanation of the Big O Notation, which is essential for understanding algorithm efficiency and complexity.
+#### This text file provides an overview or explanation of the Big O Notation, which is essential for understanding algorithm efficiency and complexity.
 
 ## 4. "Report.pptx"
-    This PowerPoint presentation encapsulates the key points and findings of the report.
+#### This PowerPoint presentation encapsulates the key points and findings of the report.
 
 ## 5. "My summary.docx"
-    A document summarizing the insights and conclusions drawn from the article.
+#### A document summarizing the insights and conclusions drawn from the article.
 
 # Usage:
 The contents of this report are organized for ease of navigation and comprehension. Users are encouraged to begin with "My summary.docx" for an overview, followed by the detailed article and the respective code implementations in Java and Python. The PowerPoint presentation can be used for a quick reference or for presentation purposes.
