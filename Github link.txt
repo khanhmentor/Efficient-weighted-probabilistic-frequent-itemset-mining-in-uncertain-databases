@@ -1,0 +1,3 @@
+HTTPS: https://github.com/khanhmentor/Efficient-weighted-probabilistic-frequent-itemset-mining-in-uncertain-databases.git
+
+SSH: git@github.com:khanhmentor/Efficient-weighted-probabilistic-frequent-itemset-mining-in-uncertain-databases.git

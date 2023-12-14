@@ -2,6 +2,8 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "Source\\Java\\lib\\jcommon-1.0.23.jar",
-        "Source\\Java\\lib\\jfreechart-1.0.19.jar"
+        "Source\\Java\\lib\\jfreechart-1.0.19.jar",
+        "Source/Java/lib/jcommon-1.0.23.jar",
+        "Source/Java/lib/jfreechart-1.0.19.jar"
     ]
 }

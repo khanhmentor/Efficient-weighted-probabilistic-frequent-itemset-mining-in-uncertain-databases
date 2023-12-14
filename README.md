@@ -35,11 +35,17 @@ This document provides an overview of the contents and structure of the report t
      ##### c. Compiling the Code:
      Open a terminal or command prompt in the directory where the Java source files are located.
      # Compile the code using the following command:
+     ## Windows:
          javac -cp ".;lib/jfreechart-1.0.19.jar;lib/jcommon-1.0.23.jar" Main.java
+     ## MacOS: 
+         javac -cp ".:lib/jfreechart-1.0.19.jar:lib/jcommon-1.0.23.jar" Main.java
 
      ##### d. Running the Application:
      # After compilation, run the application using:
+     ## Windows:
          java -cp ".;lib/jfreechart-1.0.19.jar;lib/jcommon-1.0.23.jar" Main
+     ## MacOS:
+         java -cp ".:lib/jfreechart-1.0.19.jar:lib/jcommon-1.0.23.jar" Main
 
      ##### e. Troubleshooting:
      + If you encounter classpath errors, ensure that the path to the JAR file is correctly specified in the compile and run commands.
